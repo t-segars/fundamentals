@@ -21,10 +21,7 @@ class BankAccount:
         return self
 
     def yield_interest(self):
-        if self.balance > 0:
-            self.balance += (self.balance * self.int_rate)
-        else:
-            print("no interest added")
+        self.balance = self.balance * self.int_rate + self.balance
         return self
 
     @classmethod
