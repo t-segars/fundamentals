@@ -21,14 +21,14 @@ class BankAccount:
         return self
 
 
-    def yeild_interest(self, int_rate):
+    def yield_interest(self, int_rate):
         if self.account_balance > 0:
             amount = self.rate * self.account_balance
             self.account_balance += amount
             return self
 
 class User:
-    def __init__(self, name, email):
+    def __init__(self, name, email, ):
         self.name = name
         self.email = email
         self.account = BankAccount(int_rate=0.02, balance=0)
