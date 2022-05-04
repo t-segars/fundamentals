@@ -19,6 +19,6 @@ class User:
         other_user.make_deposit(amount)
 
 user1 = User('tim', "tim@email.com")
-user2 = User('nicole', "nicole.email.com")
-user3 = User("buck, buck.email.com")
-user4 = User("belle", "belle.email.com")
+user2 = User('nicole', "nicole@email.com")
+user3 = User("buck", "buck@email.com")
+user4 = User("belle", "belle@email.com")
